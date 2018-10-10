@@ -1,0 +1,19 @@
+form_auth_keys.php
+ -> rename to something like: page_auth_keys.php
+user_accounts/sign_up_and_login_session.php
+ -> rename to something like: user_accounts/sign_up_and_access.php
+user_accounts/too_many_password_attempts_blocks.php
+ ->rename to something like: user_accounts/incorrect_login_blocks.php
+Another thing to improve that I didn't include in my other webpage notes: maybe add HTML tool-tips
+(see how-to page on W3Schools) so focused (active) elements show the contents of their title attribute
+when this wouldn't normally appear (keyboard navigation/mobile browser - no mouse over). Include an
+explanation like this as a comment in the HTML code. Also, make sure that keyboard navigation on the
+website works well (it should do anyway) and includes some keyboard shortcuts e.g. Esc to close.
+
+When I have some more money from getting paid as an adult, after adding the webpage files
+to Github and other to-do list improvements done, I would like to buy website hosting with
+an internet domain name like the one in my other idea notes.
+With other webpage idea notes about adding a bit more spacing, something that I think should work for
+the problem is: • most outer spacing between things should be 0.4em-1em • also testing the spacing on
+tablet, smartphone devices with "Desktop site" option • on smartphone devices (small width media query),
+add style for body font size to be 14px and its option for that in the footer (other idea note) to be 0.875em.
