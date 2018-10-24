@@ -17,3 +17,8 @@ With other webpage idea notes about adding a bit more spacing, something that I 
 the problem is: • most outer spacing between things should be 0.4em-1em • also testing the spacing on
 tablet, smartphone devices with "Desktop site" option • on smartphone devices (small width media query),
 add style for body font size to be 14px and its option for that in the footer (other idea note) to be 0.875em.
+
+In my room escape game, I should make a "Game editor", opened from the main menu and using
+functions in another JS file, ending in "_editor.js". On the right side of the game area,
+it should have a "Item properties" area with form inputs for editing items, with "New item",
+"Make copy" and "Delete" buttons above the heading (and scrolling area).
