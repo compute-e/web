@@ -22,3 +22,7 @@ In my room escape game, I should make a "Game editor", opened from the main menu
 functions in another JS file, ending in "_editor.js". On the right side of the game area,
 it should have a "Item properties" area with form inputs for editing items, with "New item",
 "Make copy" and "Delete" buttons above the heading (and scrolling area).
+
+In my platform game, I should do the following sentence, to add in "About & licenses" area
+(from the main menu, add that area to my room escape game): "This platform game uses a
+2d physics engine for JavaScript, found at [URL hyperlink] [...license description...]".
