@@ -24,5 +24,6 @@ it should have a "Item properties" area with form inputs for editing items, with
 "Make copy" and "Delete" buttons above the heading (and scrolling area).
 
 In my platform game, I should do the following sentence, to add in "About & licenses" area
-(from the main menu, add that area to my room escape game): "This platform game uses a
-2d physics engine for JavaScript, found at [URL hyperlink] [...license description...]".
+(from the main menu, add that area to my room escape game): "This platform game uses a 2d
+physics engine for JavaScript, found at the page [URL hyperlink] and licensed under the
+[...add description...]" - choose one from my Google search "2d physics engine javascript".
