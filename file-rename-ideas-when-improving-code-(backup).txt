@@ -4,6 +4,9 @@ user_accounts/sign_up_and_login_session.php
  -> rename to something like: user_accounts/sign_up_and_access.php
 user_accounts/too_many_password_attempts_blocks.php
  ->rename to something like: user_accounts/incorrect_login_blocks.php
+Use <https://stackoverflow.com/questions/12240922/what-is-the-length-of-a-php-session-id-string>
+for one of my notes about editing those files.
+
 Another thing to improve that I didn't include in my other webpage notes: maybe add HTML tool-tips
 (see how-to page on W3Schools) so focused (active) elements show the contents of their title attribute
 when this wouldn't normally appear (keyboard navigation/mobile browser - no mouse over). Include an
