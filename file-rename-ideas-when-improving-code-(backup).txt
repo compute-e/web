@@ -3,9 +3,17 @@ form_auth_keys.php
 user_accounts/sign_up_and_login_session.php
  -> rename to something like: user_accounts/sign_up_and_access.php
 user_accounts/too_many_password_attempts_blocks.php
- ->rename to something like: user_accounts/incorrect_login_blocks.php
+ -> rename to something like: user_accounts/incorrect_login_blocks.php
 Use <https://stackoverflow.com/questions/12240922/what-is-the-length-of-a-php-session-id-string>
-for one of my notes about editing those files.
+for one of my notes about editing those files - and in the database managing one,
+change these user columns:
+ - password one so it "Fits the length/size of cryptographic function used by the password hash code"
+ (add that in a comment), edit code so it "Saves to database and compares (to verify) user passwords,
+ after [\n] converting them to a hash using the extension at <http://php.net/manual/en/book.password.php>."
+ (add that in a comment, at start of file).
+ - user options one so "Options / metadata are saved to and loaded from text in
+ [\n] the JavaScript Object Notation (JSON) syntax using a built-in extension."
+ (add that in a comment), make the column size fit that (a medium text length).
 
 Another thing to improve that I didn't include in my other webpage notes: maybe add HTML tool-tips
 (see how-to page on W3Schools) so focused (active) elements show the contents of their title attribute
