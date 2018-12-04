@@ -15,8 +15,14 @@ change these user columns:
  [\n] the JavaScript Object Notation (JSON) syntax using a built-in extension."
  (add that in a comment), make the column size fit that (a medium text length).
 
-Another thing to improve that I didn't include in my other webpage notes: maybe add HTML tool-tips
-(see how-to page on W3Schools) so focused (active) elements show the contents of their title attribute
+In those files of my user account system (more about that in my 2018
+paper notes), I should add at end of the first paragraph in its README
+"I am adding features to this that other user account (PHP) libraries have,  
+sometimes using a process in my code that's similar to how some code in  
+another library works (to help me write my code)." and try to do that.
+
+Another thing to improve that I didn't include in my other webpage notes: add (HTML) tool-tips,
+see how-to page on W3Schools, so focused (active) elements show the contents of their title attribute
 when this wouldn't normally appear (keyboard navigation/mobile browser - no mouse over). Include an
 explanation like this as a comment in the HTML code. Also, make sure that keyboard navigation on the
 website works well (it should do anyway) and includes some keyboard shortcuts e.g. Esc to close.
