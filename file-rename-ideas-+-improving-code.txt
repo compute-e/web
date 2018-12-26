@@ -4,9 +4,10 @@ user_accounts/sign_up_and_login_session.php
  -> rename to something like: user_accounts/sign_up_and_access.php
 user_accounts/too_many_password_attempts_blocks.php
  -> rename to something like: user_accounts/incorrect_login_blocks.php
+
 Use <https://stackoverflow.com/questions/12240922/what-is-the-length-of-a-php-session-id-string>
-for one of my notes about editing those files - and in the database managing one,
-change these user columns:
+for one of my notes about editing those files - and in the
+database managing one, change these user columns:
  - password one so it "Fits the length/size of cryptographic function used by the password hash code"
  (add that in a comment), edit code so it "Saves to database and compares (to verify) user passwords,
  after [\n] converting them to a hash using the extension at <http://php.net/manual/en/book.password.php>."
@@ -21,19 +22,23 @@ paper notes), I should add at end of the first paragraph in its README
 sometimes using a process in my code that's similar to how some code in  
 another library works (to help me write my code)." and try to do that.
 
+
 Another thing to improve that I didn't include in my other webpage notes: add (HTML) tool-tips,
 see how-to page on W3Schools, so focused (active) elements show the contents of their title attribute
 when this wouldn't normally appear (keyboard navigation/mobile browser - no mouse over). Include an
 explanation like this as a comment in the HTML code. Also, make sure that keyboard navigation on the
 website works well (it should do anyway) and includes some keyboard shortcuts e.g. Esc to close.
 
+
 When I have some more money from getting paid as an adult, after adding the webpage files
 to Github and other to-do list improvements done, I would like to buy website hosting with
 an internet domain name like the one in my other idea notes.
+
 With other webpage idea notes about adding a bit more spacing, something that I think should work for
 the problem is: • most outer spacing between things should be 0.4em-1em • also testing the spacing on
 tablet, smartphone devices with "Desktop site" option • on smartphone devices (small width media query),
 add style for body font size to be 14px and its option for that in the footer (other idea note) to be 0.875em.
+
 
 In my room escape game, I should make a "Game editor", opened from the main menu and using
 functions in another JS file, ending in "_editor.js". On the right side of the game area,
@@ -44,3 +49,14 @@ In my platform game, I should do the following sentence, to add in "About & lice
 (from the main menu, add that area to my room escape game): "This platform game uses a 2d
 physics engine for JavaScript, found at the page [URL hyperlink] and licensed under the
 [...add description...]" - choose one from my Google search "2d physics engine javascript".
+
+In addition to these games, I can make 3 files named "HTML5 games app", "HTML5_games" and
+"HTML5_games (app embed version)". The second one is a PHP webpage like the homepage, move the games to it.
+The third is the second but a HTML file, only main area in body, "head data copied from file and removed
+items that aren't needed - but added some styles from linked file that are needed to an in-line element"
+(add that in a comment there) and file paths in body made relative (no "/" at start).
+
+The first is a Python file that uses a Qt lib (from tutorial programs) to run an app window that includes
+a text line "A (desktop) app that plays HTML5 games from [webpages name]." and embeds the third webpage
+after the text. In its code, it gets user home folder (built-in lib), checks if this has the app folder,
+if not creates it and downloads latest game files to there from Github repo raw URLs.
