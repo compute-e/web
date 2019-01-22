@@ -19,6 +19,11 @@ a binary package and install it, giving you the ability to uninstall it"
 
 ### Install the software.
 
+Download [this]\(+ link) bash (shell) script.
+
+Then, in the folder that has the file, open it and  
+choose to execute in a terminal (command line app).
+
 ### Add config, files and run commands. 
 
 ## Website tools - HTML5 / PHP
