@@ -1,6 +1,9 @@
 # Web tools + pages
 My web(site) HTML5 / PHP tools and (web) pages.
 
+.  
+searched "best remote desktop software"
+
 \[...use my notes to add more here...]
 
 ## Steps to show these webpages locally
