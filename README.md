@@ -1,8 +1,13 @@
 # Web tools + pages
 My web(site) HTML5 / PHP tools and (web) pages.
 
-.  
-searched "best remote desktop software"
+. helped me .  
+search "best remote desktop software"
+
+https://getbootstrap.com/docs/4.4/getting-started/introduction/
+https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp
+
+https://www.w3schools.com/tags/
 
 \[...use my notes to add more here...]
 
