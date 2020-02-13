@@ -2,7 +2,8 @@
 My web(site) HTML5 / PHP tools and (web) pages.
 
 . helped me .  
-search "best remote desktop software"
+search "best remote desktop software",  
+ "share files with link"
 
 https://getbootstrap.com/docs/4.4/getting-started/introduction/
 https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp
