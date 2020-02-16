@@ -1,0 +1,12 @@
+========== Origin ==========
+
+This image (<image name>)
+originated from a website at:
+"<website domain url>"
+
+In particular, the image came from:
+"<website image page url>"
+
+========== Copyrights ==========
+
+It is stated to be "<license type>".
