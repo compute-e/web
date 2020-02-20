@@ -1,0 +1,31 @@
+# General key/main info
+
+## About me
+Edward J
+
+https://github.com/user-e?tab=repositories
+https://app.remote.it/
+https://www.w3schools.com/default.asp
+https://stackoverflow.com/users/3787376/edward?tab=profile
+
+Mel[*] search code
+33.333%
+toasted bread, legs skirt, to inform you...
+
+### apps + words (about them) ###
+SciTE    a SCIntilla based Text Editor. Originally built
+         to demonstrate Scintilla, it has grown to be
+         a generally useful editor...
+GIMP     cross-platform image editor
+Backup and Sync  Back up files from your computer, camera,
+                 or SD cards to the cloud. ...
+                 Google Drive, photos in Google Photos.
+AnyDesk  Remote Desktop App -
+         provides remote access to any computer...
+
+D:\EDJ_win_PC\ProgramData\Microsoft\Windows\Start Menu\Programs
+All Users/Start Menu/Programs
+./Scintilla Text Editor:
+Context Menu Extension for SciTE License.lnk  SciTE Documentation.lnk  Uninstall SciTE.lnk
+Crystal Icons License.lnk                     SciTE License.lnk
+Scintilla Text Editor License.lnk             SciTE.lnk
