@@ -3,10 +3,18 @@
 ## About me
 Edward J
 
+**(web)Sites**
 https://github.com/user-e?tab=repositories
+- code project hosting, collaboration, revision control
 https://app.remote.it/
+
 https://www.w3schools.com/default.asp
+https://en.wikipedia.org/wiki/Computer_programming
+
 https://stackoverflow.com/users/3787376/edward?tab=profile
+WICG - a forum  https://discourse.wicg.io/users/edward_j/
+https://en.wikipedia.org/wiki/User:Edwardj_123
+https://quizlet.com/EdwardJ_01
 
 Mel[*] search code
 33.333%
@@ -17,9 +25,9 @@ SciTE    a SCIntilla based Text Editor. Originally built
          to demonstrate Scintilla, it has grown to be
          a generally useful editor...
 GIMP     cross-platform image editor
-Backup and Sync  Back up files from your computer, camera,
-                 or SD cards to the cloud. ...
-                 Google Drive, photos in Google Photos.
+Backup and Sync   Back up files from your computer, camera,
+                  or SD cards to the cloud. ...
+                  Google Drive, photos in Google Photos.
 AnyDesk  Remote Desktop App -
          provides remote access to any computer...
 
