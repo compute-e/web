@@ -41,9 +41,29 @@ border-bottom: 1px dotted; padding: 0.6em;
       ">C:\wamp64\www\project1</p>
       <p style="width: 38px;
       ">grid - up to 12 columns, group the columns</p>
+      AJAX = Asynchronous JavaScript And XML
+      <script>
+function loadDoc(u, f) {
+  var xhttp;
+  if (window.XMLHttpRequest) {
+    // code for modern browsers
+    xhttp = new XMLHttpRequest();
+  } else {
+    // code for IE6, IE5
+    xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+  } xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      // f(this);
+      document.getElementById("d").innerHTML = this.responseText;
+    }
+  }; xhttp.open("GET", u, true);
+  xhttp.send();
+};
+loadDoc("/README.md", 0);
+      </script>
       <img src="https://avatars1.githubusercontent.com/u/13541254?s=120&v=4" alt="">
   </div>
-  <div class="col-6">a</div>
+  <div class="col-6" id="d">a</div>
 </div>
     </div>
 
