@@ -1,7 +1,6 @@
 # Web tools + pages
-user-e > web(site) HTML5 / PHP tools and (web) pages.
+user-e > web(site) HTML5 / PHP tools and [(web) pages](https://user-e.github.io/web/docs/).
 
--> https://user-e.github.io/web/docs/  
 .: helped me :.  
 search "best remote desktop software",  
  "share files with link"
