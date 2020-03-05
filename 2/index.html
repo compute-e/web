@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+    <style>
+div.e-load {
+  overflow: auto;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+    </style>
   </head>
   <body>
 
@@ -35,20 +42,26 @@
     <div class="container">
       <h1>e</h1>
 <div class="row">
-  <div class="col-6">
+  <div class="col-6" style="background-color: rgb(180, 200, 240);
+  ">
       <p style="border-top: 1px dotted;
 border-bottom: 1px dotted; padding: 0.6em;
-      ">C:\wamp64\www\project1</p>
-      <p style="width: 38px;
+      ">C:\wamp64\www\</p>
+      <p style="width: 80px; float: left;
       ">grid - up to 12 columns, group the columns</p>
       AJAX = Asynchronous JavaScript And XML
-      <img src="https://avatars1.githubusercontent.com/u/13541254?s=120&v=4" alt="">
+      <img src="https://avatars1.githubusercontent.com/u/13541254?s=120&v=4"
+      alt="">
+      <div style="clear: both;
+      ">clear: both;</div><br>
+      auto If overflow is clipped, a scroll-bar should be
+      added to see the rest of the content.
   </div>
   <div class="col-6 e-load"
   data-l="/web/README.md">a</div>
 </div>
     </div>
-    <script>
+    <script>// src="/web/e-load.js">
 function loadDoc(u, elem, f) {
   var xhttp;
   if (window.XMLHttpRequest) {
@@ -60,8 +73,12 @@ function loadDoc(u, elem, f) {
   }
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      if (f) { f(this, elem);
-      } else { elem.innerHTML = this.responseText;
+      if (f == 2) {//.replace all?
+        elem.innerHTML = this.responseText.replace(
+          "\n","<br/>");
+      } else if (f) { f(this, elem);
+      } else {
+        elem.innerHTML = this.responseText;
       }
     }
   };
@@ -72,7 +89,7 @@ var l = document.getElementsByClassName("e-load");
 var i;
 for (i = 0; i < l.length; i++) {
   var elem = l[i];
-  loadDoc( elem.getAttribute("data-l"), elem, 0 );
+  loadDoc( elem.getAttribute("data-l"), elem, 2 );
 } // https://www.w3schools.com/jsref/jsref_statements.asp
     </script>
 
