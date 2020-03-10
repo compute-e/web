@@ -15,6 +15,9 @@ div.e-load {
   font-family: monospace;
   text-transform: uppercase;
 }
+.e1 {
+  border: 1px dotted;
+}
     </style>
   </head>
   <body>
@@ -45,8 +48,8 @@ div.e-load {
 <div class="row">
   <div class="col-4" style="padding-right:0;">
     <div style="background-color: rgb(180, 200, 240);
-    border: 1px dotted; padding: 4px;
-    ">
+    padding: 4px;
+    " class="e1">
       <p style="border-bottom: 1px dotted;
       ">C:\wamp64\www\</p>
       <p>grid - up to 12 columns, group the columns</p>
@@ -58,6 +61,7 @@ div.e-load {
       ">clear: both;</div><br>
       auto If overflow is clipped, a scroll-bar should be
       added to see the rest of the content.
+      <span class="e1">abcd</span><!-- ...has style -->
     </div>
   </div>
   <div class="col-sm-8 e-load"
