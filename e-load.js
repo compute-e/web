@@ -9,9 +9,12 @@ function loadDoc(u, elem, f) {
   }
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      if (f == 2) {//.replace all?
-        elem.innerHTML = this.responseText.replace(
-          "\n","<br/>");
+      if (f == 2) {// js .replace all
+        f = this.responseText;
+        f = f.replace(new RegExp(
+          "<", 'g'), "&lt;");
+        elem.innerHTML = f.replace(new RegExp(
+          "\n", 'g'), "<br/>");
       } else if (f) { f(this, elem);
       } else {
         elem.innerHTML = this.responseText;
