@@ -1,7 +1,7 @@
 # General key/main info
 
 ## About me
-Edward J
+Edward J -{ maths, veggie, computers... }-
 
 **(web)Sites**
 https://github.com/user-e?tab=repositories
