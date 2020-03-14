@@ -25,8 +25,12 @@ function loadDoc(u, elem, f) {
   xhttp.send();
 };
 var l = document.getElementsByClassName("e-load");
-var i;
+var i; var f;
 for (i = 0; i < l.length; i++) {
   var elem = l[i];
-  loadDoc( elem.getAttribute("data-l"), elem, 2 );
+  f = 0;
+  if (elem.getAttribute("data-rp") == "") {
+    f = 2;
+  }
+  loadDoc( elem.getAttribute("data-l"), elem, f );
 } // https://www.w3schools.com/jsref/jsref_statements.asp
