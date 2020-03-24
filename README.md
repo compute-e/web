@@ -1,9 +1,10 @@
 # Web tools + pages
-user-e > web(site) HTML5 / PHP tools and [(web) pages](https://user-e.github.io/web/2/).
+user-e > web(site) HTML5 / PHP tools and [(web) pages](https://user-e.github.io/web/c/).
 
 .: helped me :.  
 search "best remote desktop software",  
- "share files with link"
+ "share files with link",  
+ "vector image types" : EPS / SVG
 
 https://getbootstrap.com/docs/4.4/getting-started/introduction/  
 https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp  
