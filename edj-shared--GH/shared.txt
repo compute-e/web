@@ -33,6 +33,7 @@ Backup and Sync   Back up files from your computer, camera,
                   Google Drive, photos in Google Photos.
 AnyDesk  Remote Desktop App -
          provides remote access to any computer...
+Inkscape  "SVG editor" https://inkscape.org/
 
 D:\EDJ_win_PC\ProgramData\Microsoft\Windows\Start Menu\Programs
 All Users/Start Menu/Programs
