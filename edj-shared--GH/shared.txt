@@ -1,7 +1,8 @@
-# General key/main info
+# "General key/main info"
 
-## About me
-Edward J -{ maths, veggie, computers... }-
+## me
+Edward
+-{ likes maths, computers, is veggie ... }-
 
 **(web)Sites**
 https://github.com/user-e?tab=repositories
@@ -20,8 +21,7 @@ https://quizlet.com/EdwardJ_01
 
 ("1 EDJ backup\1 Multiple, general\") E, 2018+
 Mel[*] search code
-33.333%
-toasted bread, legs skirt, to inform you...
+33.333%, toasted bread, legs skirt, to inform you...
 
 ### apps + words (about them) ###
 SciTE    a SCIntilla based Text Editor. Originally built
