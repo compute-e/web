@@ -1,0 +1,22 @@
+.e-pad { padding: 0.4em 0.5em; }
+.e-pad2 { padding: 0.5em 0.8em; }
+.xy-from-this {
+  position: relative;
+}
+.xy {
+  position: absolute;
+}
+
+.e1 {
+  border-left: 1px dotted;
+}
+.e2 {
+  width: 12px; height: 12px;
+  float: left;
+} .e2g {
+  background-color: rgb(100, 240, 180);
+} .e2a {
+  background-color: rgb(240, 240, 0);
+} .e2c {
+  background-color: rgb(0, 240, 80);
+}
