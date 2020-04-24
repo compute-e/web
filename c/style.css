@@ -1,5 +1,14 @@
 .e-pad { padding: 0.4em 0.5em; }
 .e-pad2 { padding: 0.5em 0.8em; }
+/* 250 */
+
+.l-link {
+  /* class="... */
+  display: block;
+}
+.main {
+}
+
 .xy-from-this {
   position: relative;
 }
