@@ -6,6 +6,9 @@
   /* class="... */
   display: block;
 }
+.e-bg {
+  background-color: rgb(80, 201, 144);
+}
 .main {
 }
 
