@@ -1,8 +1,11 @@
 # "General key/main info"
 
 ## me
-Edward
--{ likes maths, computers, is veggie ... }-
+{
+"name": "Edward",
+"about": "he likes maths, computers, is veggie ...",
+"more": ""
+}
 
 **(web)Sites**
 https://github.com/user-e?tab=repositories
