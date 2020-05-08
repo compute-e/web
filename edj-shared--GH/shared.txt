@@ -8,9 +8,9 @@
 }
 
 **(web)Sites**
-https://github.com/user-e?tab=repositories
+https://github.com/compute-e?tab=repositories
 - code project hosting, collaboration, revision control
-- user-e/web
+- /web
 https://desktop.github.com/
 
 https://www.w3schools.com/default.asp
